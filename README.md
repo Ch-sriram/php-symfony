@@ -4,11 +4,11 @@
 
 ## Table of Contents
 
-- [PHP \& Symfony](#php--symfony)
-  - [Setup \& Installation](#setup--installation)
-    - [`php7.2`](#php72)
-    - [Composer (1 and 2)](#composer-1-and-2)
-    - [Creating a New Project in `symphony 3.3.16`](#creating-a-new-project-in-symphony-3316)
+- [Setup \& Installation](#setup--installation)
+  - [`php7.2`](#php72)
+  - [Composer (1 and 2)](#composer-1-and-2)
+  - [Creating a New Project in `symphony 3.3.16`](#creating-a-new-project-in-symphony-3316)
+- [Run Webserver (Dev)](#run-webserver-dev)
 
 ## Setup & Installation
 
