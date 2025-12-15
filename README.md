@@ -9,6 +9,7 @@
   - [Composer (1 and 2)](#composer-1-and-2)
   - [Creating a New Project in `symphony 3.3.16`](#creating-a-new-project-in-symphony-3316)
 - [Run Webserver (Dev)](#run-webserver-dev)
+- [Backend: Symfony Architecture \& Request Flow](#backend-symfony-architecture--request-flow)
 
 ## Setup & Installation
 
@@ -120,5 +121,11 @@
   ```
 
 - You should be able to open the server on <http://localhost:8000> (or <http://127.0.0.1:8000>).
+
+[:arrow_double_up:](#table-of-contents)
+
+## Backend: Symfony Architecture & Request Flow
+
+![symfony-request-flow-dark](./img/symfony-req-res-flow-dark.svg)
 
 [:arrow_double_up:](#table-of-contents)
