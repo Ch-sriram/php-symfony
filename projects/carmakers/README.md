@@ -11,6 +11,8 @@
   php bin/console server:run
   ```
 
+### Useful Commands
+
 <!--
 Symfony Standard Edition
 ========================

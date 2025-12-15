@@ -10,6 +10,7 @@
   - [Creating a New Project in `symphony 3.3.16`](#creating-a-new-project-in-symphony-3316)
 - [Run Webserver (Dev)](#run-webserver-dev)
 - [Backend: Symfony Architecture \& Request Flow](#backend-symfony-architecture--request-flow)
+- [Symfony Console (Basics)](#symfony-console-basics)
 
 ## Setup & Installation
 
@@ -129,3 +130,29 @@
 ![symfony-request-flow-dark](./img/symfony-req-res-flow-dark.svg)
 
 [:arrow_double_up:](#table-of-contents)
+
+## Symfony Console (Basics)
+
+1. Typing in the following will list commands that can be used with `symfony console`:
+
+   ```bash
+   # From inside your /path/to/project, run:
+   php bin/console
+
+   # The shorter version of bin/console is using --help
+   php bin/console --help
+   ```
+
+2. Clearing Cache
+
+   ```bash
+   php bin/console cache:clear
+
+   # To know more about cache:clear command, a --help tag is useful
+   php bin/console cache:clear --help
+
+   # To clear production environment cache, use:
+   php bin/console cache:clear --env=prod --no-debug
+   ```
+
+   This works for other commands as well.
